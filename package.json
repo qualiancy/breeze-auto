@@ -1,6 +1,6 @@
 {
     "name": "breeze-auto"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "Invoke async functions concurrently based on prerequisites."
   , "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)"
   , "license": "MIT"

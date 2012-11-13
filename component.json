@@ -1,7 +1,7 @@
 {
     "name": "breeze-auto"
   , "repo": "qualiancy/breeze-auto"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "Invoke async functions concurrently based on prerequisites."
   , "license": "MIT"
   , "keywords": [
