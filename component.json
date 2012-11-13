@@ -10,6 +10,8 @@
   , "scripts": [
         "lib/auto.js"
     ]
-  , "dependencies": {}
+  , "dependencies": {
+        "qualiancy/breeze-dag": "*"
+    }
   , "development": {}
 }
