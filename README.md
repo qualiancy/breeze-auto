@@ -1,4 +1,4 @@
-# breeze-auto
+# breeze-auto [![Build Status](https://secure.travis-ci.org/qualiancy/breeze-auto.png?branch=master)](https://travis-ci.org/qualiancy/breeze-auto)
 
 > Invoke async functions concurrently based on prerequisites.
 
@@ -15,6 +15,35 @@
 `breeze-auto` is available as a [component](https://github.com/component/component).
 
     $ component install qualiancy/breeze-auto
+
+## Usage
+
+### auto (tasks[, concurreny], callback)
+
+* **@param** _{Object}_ tasks 
+* **@param** _{Number}_ concurrency 
+* **@param** _{Function}_ callback 
+
+Determines a best-fit concurrency path of execution
+for a set of interdependant named tasks.
+
+```js
+var auto = require('breeze-auto');
+
+auto({
+    one: function (next) {
+      setTimeout(next, 10);
+    }
+  , two: function (next) {
+      setTimeout(next, 15);
+    }
+  , three: [ 'one', 'two', function (next) {
+      setTimeout(next, 20);
+    }]
+}, 2, function (err) {
+  should.not.exist(err);
+});
+```
 
 ## License
 
