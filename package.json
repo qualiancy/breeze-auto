@@ -1,0 +1,28 @@
+{
+    "name": "breeze-auto"
+  , "version": "0.0.0"
+  , "description": "Invoke async functions concurrently based on prerequisites."
+  , "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)"
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "repository": {
+        "type": "git"
+      , "url": "git@github.com:qualiancy/breeze-auto.git"
+    }
+  , "engines": {
+      "node": "*"
+    }
+  , "main": "./index"
+  , "scripts": {
+      "test": "make test"
+    }
+  , "dependencies": {
+    }
+  , "devDependencies": {
+        "chai": "*"
+      , "component": "*"
+      , "mocha": "*"
+      , "mocha-phantomjs": "*"
+    }
+}

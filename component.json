@@ -1,0 +1,15 @@
+{
+    "name": "breeze-auto"
+  , "repo": "qualiancy/breeze-auto"
+  , "version": "0.0.0"
+  , "description": "Invoke async functions concurrently based on prerequisites."
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "main": "lib/auto.js"
+  , "scripts": [
+        "lib/auto.js"
+    ]
+  , "dependencies": {}
+  , "development": {}
+}
